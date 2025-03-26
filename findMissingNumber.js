@@ -1,6 +1,6 @@
 //Time Complexity: O(n)
 //Space Complexity: O(1)
-function missingNumber(arr) {
+function findMissingNumber(arr) {
     if(!Array.isArray(arr)) {
         throw Error("Input must be an array")
     }
@@ -44,6 +44,5 @@ function findMissingNumberUsingSet(arr) {
    }
 }
 
-console.log(findMissingNumberUsingSet([3,0,1]))
-console.log(missingNumber([3,0,1]))
+
 
